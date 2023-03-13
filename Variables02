@@ -1,0 +1,27 @@
+#Variables02
+
+name1 = "George" 
+name2 = "Charlie" 
+name3 = "Harry" 
+name4 = "Regan" 
+name5 = "Bobiette" 
+
+print(name1) 
+print(name2) 
+print(name3) 
+print(name4) 
+print(name5) 
+
+town1 = "Croydon"
+town2 = "Thorton Heath"
+town3 = "Shrublands"
+town4 = "Grimsby"
+town5 = "Bromley"
+
+print("")
+
+print(town1)
+print(town2)
+print(town3)
+print(town4)
+print(town5)
