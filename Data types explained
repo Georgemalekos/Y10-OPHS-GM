@@ -1,0 +1,10 @@
+#Data types EXPLAINED
+
+#5 Data types for this GCSE
+#CRIBS
+
+character = "y"
+real_Float =  3.1415927
+integer = 49
+boolean = True False
+string = "123abc%&*"
