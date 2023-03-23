@@ -1,0 +1,14 @@
+print("WELCOME TO MAD-LIB")
+print("please answer the following questions")
+print("")
+
+adjective1 = input("Enter an adjective e.g.small/brocken/smelly >>> ")
+nationality1 = input("Enter a nationality >>> ")
+person1 = input("Enter a person >>> ")
+noun1 = input("Enter a noun (person/place/thing >>> ")
+
+print("")
+print("Here is your MAD-LIB")
+print("")
+print("Pizza was invented by a" ,adjective1, nationality1, "chef named" ,person1)
+print("To make a pizza, you need to take a lump of", noun1, "and make a flumboyant phillipino")
