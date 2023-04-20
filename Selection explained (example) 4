@@ -4,8 +4,6 @@ if food == "Kebab":
   print("ummm, my favourite!")
   print("I feel like saying it 100 times...")
   print(100 * (food + "! " ))
-  else 
+else:
   print("i'm hungry")
-
-
 
