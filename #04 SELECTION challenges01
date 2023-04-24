@@ -1,0 +1,9 @@
+#04 SELECTION challenges01
+
+num1 = input("give me a number between 0-200 :")
+num2 = input("give me another number between 0-200 :")
+
+if num1 > num2 :
+  print (num2, num1)
+else :
+  print(num1, num2)
