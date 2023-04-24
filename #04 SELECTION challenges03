@@ -1,0 +1,11 @@
+#04 SELECTION challenges03
+
+num1 = int(input("give me a number greater than 10 but less than 20 :"))
+if num1 > 10 and num1 < 20 :
+  print("thank you")
+else: 
+  print("incorrect answer")
+
+
+
+
