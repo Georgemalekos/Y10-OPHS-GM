@@ -1,0 +1,10 @@
+#04 SELECTION CHALLENGES07
+
+num1 = input("enter a number : ")
+if num1 < ("10") :
+  print("Too low")
+if num1 > ("10") and num1 < ("20") : 
+  print("Correct!")
+if num1 > ("20") :
+  print("too high you crazy pizza pie")
+
