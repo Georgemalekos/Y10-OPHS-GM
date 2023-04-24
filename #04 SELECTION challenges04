@@ -1,0 +1,11 @@
+#04 SELECTION challenges04
+
+fav_col = input("What is your favourite colour? :")
+if fav_col == "red" or fav_col == "RED" or fav_col == "Red" :
+  print("I like red too!")
+else:
+  print("I don’t like",  fav_col, fav_col, "is for losers")
+  
+  
+  
+ 
