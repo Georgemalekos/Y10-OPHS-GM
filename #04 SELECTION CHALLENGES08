@@ -1,0 +1,11 @@
+#04 SELECTION CHALLENGES08
+
+num1 = input("enter a number 1, 2, 3 : ")
+if num1 == ("1") :
+  print("Thank you!")
+if num1 == ("2") :
+  print("well done, you’re so smart")
+if num1 == ("3") :
+  print("really? What is wrong with you??")
+
+
