@@ -1,0 +1,9 @@
+num1 = int(input("Enter a num"))
+total = num1
+loopAgain = "y"
+
+while loopAgain == "y":
+  num2 = int(input("Enter another num"))
+  total = total + num2
+  loopAgain = str(input("Do you want to enter another num"))
+print(total)
