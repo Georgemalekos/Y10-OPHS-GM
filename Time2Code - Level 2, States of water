@@ -1,0 +1,14 @@
+# -------------------------
+# Main program
+# -------------------------
+temperature = int(input("What is the temperature: "))
+
+if temperature <= 0 :
+  print("The water is in a solid state.")
+elif temperature > 0 and temperature < 100 :
+  print("The water is in a liquid state.")
+else :
+  print("The water is in a gas state.")
+
+
+
