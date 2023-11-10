@@ -1,0 +1,34 @@
+#Subprograms 
+
+def Cel2Fahr(Cvalue) : 
+  #Calculate and return answer  
+  result = float(int(Temp * 9 / 5 + 32))
+  return(result)
+  
+def Fahr2Cel(Fvalue) :
+  #Calculate and return answer : 
+   result = float(int((Temp - 32) * 5 / 9)) 
+   return(result)
+
+#Main program 
+
+Temp = float(input("Input the temperature you would like to convert:"))
+Type = input("Input the type of temperature you would like to be converting from : F/C")
+
+if Type.upper() == "C" : 
+  result = Cel2Fahr(Temp)
+  o_conversion = "Fahrenheit" 
+elif Type.upper() == "F" : 
+  result = Fahr2Cel(Temp) 
+  o_conversion = "Celcius" 
+else: 
+  print("Input proper convention") 
+  quit() 
+
+if Type == "F" : 
+  print("The temperature is", result,"degrees celcius") 
+elif Type == "C" : 
+  print("The temperature is", result,"degrees fahrenheit")
+
+
+
