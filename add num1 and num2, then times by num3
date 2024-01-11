@@ -1,0 +1,9 @@
+first = int(input("Enter a number: "))
+second = int(input("Enter a number: "))
+third = int(input("Enter a number: "))
+
+answer = (first + second)*third
+
+print("The answer is", answer)
+
+
